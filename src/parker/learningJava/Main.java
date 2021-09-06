@@ -14,6 +14,14 @@ public class Main {
         for (int number =1; number <7; number +=2){
             System.out.println("The number = " + number);
         }
+        //never execute
+        for (int number =1; number <0; number +=2){
+            System.out.println("The number = " + number);
+        }
+//        this will loop forever in an endless loop
+//        for (int number =100; number >0; number +=2){
+//            System.out.println("The number = " + number);
+//        }
     }
     public static double calculateInterest (double amount, double interestRate){
         return (amount * (interestRate/100));
